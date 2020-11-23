@@ -1,162 +1,119 @@
 .container{
 position: absolute;left:-190px ;
-margin-left: 260px;
+margin-left: 230px;
 }
 
 .info{
-position: absolute;top: 10px;
 list-style-type: none;
-padding-left:10px;
-outline: 0;
-text-decoration: none;
 display: flex;
- margin-left: 300px;
-font-size: 14px;
+position: absolute;top:10px;
+margin-left:300px;
+font-size: 12px;
+}
+
+.head{
+  margin-right: 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  color: #333;
+  font-weight: bolder;
 }
   
-li a{
-display: inline-block;
-list-style-type: none;
-align-items: left;
-text-decoration: none;
-background-image: none;
-padding-left: 0;
-cursor: pointer;
-font-weight: bold;
-color:black;
+.headerpicture{
+  float: right;
+  margin-right: 50px;
+  margin-top: 15px;
+  cursor: pointer;
 }
-
-.headpic{
- text-align: right;
- cursor: pointer;
+:root {
+  --hamburger-menu-size: 50px; /* メニューの大きさ */ 
+  --hamburger-menu-padding: 12px;  
+  --hamburger-menu-border-px: 2px; /* 線の太さ */
+  --hamburger-menu-border-color: #342534; /* 線の色 */
 }
-
-
-.header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-  background: #fff;
-}
-
-.logo{
-font-size: 2px;
-}
-
-.drawer-hidden{
-display: none;
-}
-
-.drawer-open{
-display: flex;
-height: 10px;
-width: 10px;
-justify-content: center;
-align-items: center;
-position: relative;
-z-index: 100;
-cursor: pointer;
-}
-
-.drawer-open span,
-.drawer-open span::before,
-.drawer-open span::after{
-content: "";
-display:block ;
-height:3px;
-width:3px;
-border-radius: 3px;
-background: #333;
-transition: 0.5s;
-position: absolute;
-}
-
-.drawer-open span::before{
-bottom: 8px;
-}
-
-.drawer-open span::after{
-top: 8px;
-}
-
-.drwer-check:checked ~ .drawer-open span::before{
-bottom:0;
-transform: rotate(45deg);
-}
-
-#drawer-check:checked ~ .drwer-open span::after{
-  top: 0;
-  transform: rotate(-45deg);
-}
-
-.drawer-content{
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top:0;
-  
-}
-
-.bread1{
-  list-style-type: none;
-  padding: 30px;
-  margin-left: 20px;
-  color: #999;
-  font-size:12px;
-  display: flex;
-  margin-bottom:-40px; 
-}
-.bread2{
-list-style-type: none;
-color: #999;
-font-size:12px;
-display: flex;
-margin-bottom: 30px;
-}
-
-h1{
-  color: #fff;
-  font-weight: normal;
-  font-size: 15px;
-  text-align: left;
-  margin-bottom: 10%;
-}
-
-.text-image{
+.hamburger-menu{
+  cursor: pointer;
   position: relative;
-  width: 100％;
-  height: 250px;
-  object-fit: cover;
-  color: #fff;
+  width: 50px;
+  height: 50px;
+margin-left: auto;
 }
 
-.text-image h1{
-position: absolute;
-top: 10%;
-left: 15%;
-bottom: 30px;
-font-size: 20px;
-color: #fff;
+.hamburger-menu-line{
+  position: absolute;
+  transition: var(--hamburger-menu-transition);
+  width: calc(100% - var(--hamburger-menu-padding) * 2);
+  height: var(--hamburger-menu-border-px);
+  background-color: var(--hamburger-menu-border-color);
 }
 
-.text-image p{
-position: absolute;
-top: 25%;
-left: 15%;
-font-size: 25px;
-color: #fff;
-font-weight: bold;
+.line-top{
+  top: var(--hamburger-menu-padding);
+  left: var(--hamburger-menu-padding);
 }
 
-.text2{
-  font-size: 10px;
+.line-middle{
+  top: calc(50% - var(--hamburger-menu-border-px)/2);
+  left: var(--hamburger-menu-padding);
+}
+
+.line-bottom{
+  bottom: var(--hamburger-menu-padding);
+  left: var(--hamburger-menu-padding);
+}
+
+.pic{
+  margin-right: 15px;
+}
+
+.bread-list{
+  list-style-type: none;
+  font-size: 12px;
   color: #999;
-  font-weight: normal;
-  text-align: right;
+  font-weight: lighter;
+  padding-top:15px;
+  display: flex;
+  margin-left: 40px;
 }
 
-.SNS::before{
+.topbread::before{
+content: ">";
+color:#999;
+}
+
+.topbread::after{
+  content:"";
+}
+
+.topbread{
+  margin-left: 30px;
+}
+
+.text-message{
+  padding-top: 10px;
+  object-fit: scale-down;
+}
+
+.text-message h1{
+position: absolute;
+font-size: 20px;
+margin-left: 250px;
+margin-top: -280px;
+color: #fff;
+font-weight: lighter;
+}
+
+.text-message P{
+  position: absolute;
+  font-size: 25px;
+  margin-left: 250px;
+  margin-top: -230px;
+  color: #fff;
+  font-weight: bolder; 
+}
+
+.SNSbutton::before{
   content:"share";
   color:#999;
   font-weight: bold;
@@ -164,21 +121,18 @@ font-weight: bold;
   margin-top:5px;
 }
 
-.SNS::after{
+.SNSbutton::after{
   content:"";
-  display:block;
-  margin-bottom:20px;
+  margin-top:-10px;
   margin-left: 260px;
-  justify-content: space-around;
 }
 
- .SNS{
+ .SNSbutton{
   border-style: none;
   vertical-align: middle;
   display: flex;
   float: right;
   list-style-type: none;
-  justify-content: space-around;
   cursor: pointer;
  } 
 
@@ -191,7 +145,7 @@ font-weight: bold;
   padding-right: 50px;
 }
 
-.p1{
+.NRImessage p{
   font-size: 16px;
   font-weight: normal;
   text-align: justify;
@@ -199,16 +153,7 @@ font-weight: bold;
 }
 
 
-.p2{
-  font-size: 16px;
-  font-weight: normal;
-  text-align: justify;
-  margin-left: 270px;
-  margin-bottom: 30px;
-  
-}
-
-.pic2{
+.picture{
   text-align: center;
 }
 
@@ -228,11 +173,15 @@ font-weight: bold;
   margin-top: 30px;
 }
 
-
-
 .btn:hover{
   opacity: 0.8;
 }
+
+
+
+
+
+
 
 
 .topic4{
