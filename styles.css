@@ -19,7 +19,7 @@ font-size: 12px;
   color: #333;
   font-weight: bolder;
 }
-  
+
 .headerpicture{
   float: right;
   margin-right: 50px;
@@ -27,8 +27,8 @@ font-size: 12px;
   cursor: pointer;
 }
 :root {
-  --hamburger-menu-size: 50px; /* メニューの大きさ */ 
-  --hamburger-menu-padding: 12px;  
+  --hamburger-menu-size: 50px; /* メニューの大きさ */
+  --hamburger-menu-padding: 12px;
   --hamburger-menu-border-px: 2px; /* 線の太さ */
   --hamburger-menu-border-color: #342534; /* 線の色 */
 }
@@ -114,7 +114,7 @@ font-weight: lighter;
   margin-left: 250px;
   margin-top: -230px;
   color: #fff;
-  font-weight: bolder; 
+  font-weight: bolder;
 }
 
 .SNSbutton::before{
@@ -138,7 +138,7 @@ font-weight: lighter;
   float: right;
   list-style-type: none;
   cursor: pointer;
- } 
+ }
 
 .topics{
  font-family: sans-serif !important;
@@ -193,10 +193,10 @@ text-decoration: none;
 h3{
   margin:50px 330px;
 }
-  
+
 
 .NRIhumanresource{
-  margin: -20px 900px;
+  margin: 0px 0px;
   display: inline-block;
   text-decoration: none;
 }
@@ -255,7 +255,7 @@ font-size:16px;
  text-decoration: none;
  outline: 0;
 }
- 
+
 
 
 .btn-displayblock2{
@@ -287,7 +287,7 @@ font-size:16px;
   outline: 0;
  }
 
- 
+
 
  .btn-displayblock4{
   width: 245px;
@@ -305,7 +305,7 @@ font-size:16px;
   text-decoration: none;
   outline: 0;
  }
- 
+
  .btn-displayblock5{
   width: 250px;
   height:50px;
@@ -381,7 +381,7 @@ font-size:16px;
   list-style-type: none;
   justify-content: space-around;
   cursor: pointer;
- } 
+ }
 
  .line1{
   display: inline-block;
@@ -487,7 +487,7 @@ font-size:16px;
 .sentence5:hover {
   text-decoration: underline;
 }
-  
+
 .sentence6{
   float: left;
   position: relative;
@@ -959,7 +959,7 @@ font-size:16px;
   cursor: pointer;
   margin: 0 auto;
   width: 30%;
- } 
+ }
  .SNS3::before{
   content:"FollowUs";
   color: #333;
@@ -1613,4 +1613,8 @@ font-size:16px;
 
 .navigation-header.--solutioin {
   font-size: 15px;
+}
+
+ul {
+  list-style: none;
 }
