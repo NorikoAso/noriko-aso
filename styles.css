@@ -90,6 +90,10 @@ color:#999;
   margin-left: 30px;
 }
 
+#picture2{
+  object-fit: cover;
+}
+
 .text-message{
   padding-top: 10px;
   object-fit: scale-down;
