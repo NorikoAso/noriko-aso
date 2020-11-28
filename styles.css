@@ -183,11 +183,18 @@ display: inline-block;
 text-decoration: none;
 }
 
-
-
-
+.NRIbusiness:hover{
+  text-decoration: underline;
+}
 h3{
   margin:50px 330px;
+}
+  
+
+.NRIhumanresource{
+  margin: -20px 900px;
+  display: inline-block;
+  text-decoration: none;
 }
 
 
