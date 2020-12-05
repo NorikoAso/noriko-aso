@@ -190,9 +190,6 @@ text-decoration: none;
 .NRIbusiness:hover{
   text-decoration: underline;
 }
-h3{
-  margin:50px 330px;
-}
 
 
 .NRIhumanresource{
@@ -201,32 +198,250 @@ h3{
   text-decoration: none;
 }
 
-
-
-.topic4{
-text-align:left;
-font-size:16px;
-text-decoration: none;
-margin-left: 260px;
-margin-top: 260px;
-cursor: pointer;
-}
-
-
-
-.topic5{
- text-align: right;
-font-size:16px;
- text-decoration: none;
- position: relative;
- margin-left: 960px;
- margin-top: -45px;
- cursor: pointer;
-}
-.topics5:hover{
+.NRIhumanresource:hover{
   text-decoration: underline;
 }
 
+h3{
+  margin-left: 400px;
+  font-size: 15px;
+}
+
+.box-wrapper{
+  display:flex;
+  flex-wrap: wrap;
+  margin-left: 380px;
+  margin-top: -50px;
+  padding:50px;
+  width: 550px;
+  height: 180px;
+  background-color:#D7EEFF;	
+}
+
+.NRIstrengthspoint {
+  background-color: #fff;
+  border: 1px solid #999;
+  width: 123px;
+  height: 60px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 20px 30px;
+  padding: 15px;
+  font-size:8px;
+  color: #0c269a;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: -10px;
+  
+}
+
+.NRIstrengthspoint:hover{
+  background-color:#EEEEEE;	
+}
+
+.SNSbutton{
+  padding: 20px 100px;
+}
+
+hr{
+  margin: 150px;
+}
+
+.business{
+padding-left: 160px;
+margin-top: -120px;
+font-weight: bolder;
+font-size: 20px;
+}
+
+.lineone{
+ margin: 50px;
+  border-bottom:dotted 0.5px #C0C0C0 ;
+
+}
+.policy{
+padding-left: 160px;
+margin-top: 10px;
+font-weight: bolder;
+font-size: 16px;
+}
+
+.box-wrappertwo{
+  display:flex;
+  flex-wrap: wrap;
+  width: 700px;
+  margin-left: 150px;
+  justify-content: space-between;
+}
+
+.manegementpolicy{
+width: 160px;
+padding:5px;
+text-decoration: none;
+cursor: pointer;
+font-size: 14px;
+color: #0c269a;
+}
+
+.manegementpolicy:hover{
+  text-decoration: underline;
+}
+
+.company{
+padding-left: 160px;
+margin-top: 10px;
+font-weight: bolder;
+font-size: 16px;
+}
+
+.box-wrapperthree{
+  display:flex;
+  flex-wrap: wrap;
+  width: 700px;
+  margin-left: 150px;
+  justify-content: space-between;
+}
+
+.companypolicy{
+width: 160px;
+padding:5px;
+text-decoration: none;
+cursor: pointer;
+font-size: 14px;
+color: #0c269a;
+}
+.companypolicy:hover{
+  text-decoration: underline;
+}
+.point{
+padding-left: 160px;
+margin-top: 10px;
+font-weight: bolder;
+font-size: 16px;
+}
+.box-wrapperfour{
+  display:flex;
+  flex-wrap: wrap;
+  width: 700px;
+  margin-left: 150px;
+  justify-content: space-between;
+}
+.companygrowth{
+width: 160px;
+padding:5px;
+text-decoration: none;
+cursor: pointer;
+font-size: 14px;
+color: #0c269a;
+}
+.companygrowth:hover{
+  text-decoration: underline;
+}
+.place{
+  padding-left: 160px;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 16px; 
+}
+.box-wrapperfive{
+  display:flex;
+  flex-wrap: wrap;
+  width: 700px;
+  margin-left: 150px;
+  justify-content: space-between;
+}
+.companyplace{
+  width: 160px;
+  padding:5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #0c269a;
+}
+.companyplace:hover{
+  text-decoration: underline;
+}
+.box-wrappersix{
+  display:flex;
+  flex-wrap: wrap;
+  width: 700px;
+  margin-left: 150px;
+  justify-content: space-between; 
+}
+.service{
+  width: 160px;
+  padding:5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #0c269a;
+}
+.service:hover{
+  text-decoration: underline;
+}
+
+
+.SNSsharebutton{
+  display:flex;
+  vertical-align: middle;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.SNSsharebutton::before{
+  content:"Follow Us";
+  color:#333;
+  font-weight: bolder;
+  font-size:20px;
+}
+
+.SNSsharebutton::after{
+  content:"";
+  margin-top:-10px;
+  margin-left: 260px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/--!ここから下は現時点では使用しない--!/
+.hubs{
+  display:inline-flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  width: 38%;
+ justify-content: space-between;
+ margin-left: 130px;
+}
+.introduce{
+  padding-left: 160px;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 16px; 
+}
+
+.businessinfomation{
+  display:inline-flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  width: 38%;
+ justify-content: space-between;
+ margin-left: 130px;
+}
+
+/--!ここから下は使用しない--!/
 .strong1{
   display: inline-block;
   text-align: left;
