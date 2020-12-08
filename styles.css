@@ -145,25 +145,20 @@ font-weight: lighter;
   font-size: 15px;
   margin-bottom: 30px;
   margin-top: 90px;
-  margin-left: 270px;
   padding-right: 50px;
+  text-align: left;
 }
-
 .NRImessage p{
   font-size: 16px;
   font-weight: normal;
-  text-align: justify;
-  margin-left: 270px;
+  text-align: left;
 }
-
-
 .picture{
-  text-align: center;
+  text-align: left;
 }
-
 .btn{
   display: block;
-  width: 300px;
+  width: 330px;
   height: 60px;
   background: #005bac;
   color: #fff;
@@ -175,47 +170,66 @@ font-weight: lighter;
   text-decoration: none;
   outline: none;
   margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 16px;
 }
 
 .btn:hover{
   opacity: 0.8;
 }
-
-.NRIbusiness{
-margin:65px 330px;
-display: inline-block;
-text-decoration: none;
+.NRIstrengths{
+  width: 85%;
+  display: inline-block;
 }
-
+.NRIbusiness{
+text-decoration: none;
+float: left;
+}
 .NRIbusiness:hover{
   text-decoration: underline;
 }
-
-
 .NRIhumanresource{
-  margin: 0px 0px;
-  display: inline-block;
   text-decoration: none;
+  float: right;
 }
-
 .NRIhumanresource:hover{
   text-decoration: underline;
 }
-
 h3{
-  margin-left: 400px;
-  font-size: 15px;
+text-align: left;
+font-size: 15px;
+margin-left: 180px;
 }
-
 .box-wrapper{
   display:flex;
   flex-wrap: wrap;
-  margin-left: 380px;
-  margin-top: -50px;
   padding:50px;
   width: 550px;
   height: 180px;
+  margin-left: 160px;
   background-color:#D7EEFF;	
+}
+
+.SNSbuttontwo{
+  border-style: none;
+  vertical-align: middle;
+  display: flex;
+  list-style-type: none;
+  cursor: pointer;
+  margin-left: 600px;
+}
+.SNSbuttontwo::before{
+  content:"share";
+  color:#999;
+  font-weight: bold;
+  font-size:13px;
+  margin-top:5px;
+}
+
+.SNSbuttontwo::after{
+  content:"";
+  margin-top:-10px;
+  margin-left: 260px;
 }
 
 .NRIstrengthspoint {
@@ -239,31 +253,33 @@ h3{
   background-color:#EEEEEE;	
 }
 
-.SNSbutton{
-  padding: 20px 100px;
-}
-
 hr{
   margin: 150px;
 }
 
 .business{
 padding-left: 160px;
-margin-top: -120px;
+margin-top: 40px;
 font-weight: bolder;
 font-size: 20px;
+text-align: left;
+padding:20px;
 }
 
-.lineone{
- margin: 50px;
-  border-bottom:dotted 0.5px #C0C0C0 ;
-
+.business{
+  border-top: 2px solid #333;
+  border-bottom: 1px dotted #C0C0C0;
 }
+
+
+
 .policy{
 padding-left: 160px;
 margin-top: 10px;
 font-weight: bolder;
 font-size: 16px;
+text-align: left;
+padding:25px;
 }
 
 .box-wrappertwo{
@@ -292,6 +308,9 @@ padding-left: 160px;
 margin-top: 10px;
 font-weight: bolder;
 font-size: 16px;
+text-align: left;
+border-top:1px dotted #C0C0C0;
+padding:25px;
 }
 
 .box-wrapperthree{
@@ -318,6 +337,9 @@ padding-left: 160px;
 margin-top: 10px;
 font-weight: bolder;
 font-size: 16px;
+text-align: left;
+padding:25px;
+border-top:1px dotted #C0C0C0;
 }
 .box-wrapperfour{
   display:flex;
@@ -342,6 +364,9 @@ color: #0c269a;
   margin-top: 10px;
   font-weight: bolder;
   font-size: 16px; 
+  text-align: left;
+  padding:25px;
+  border-top:1px dotted #C0C0C0;
 }
 .box-wrapperfive{
   display:flex;
@@ -361,6 +386,15 @@ color: #0c269a;
 .companyplace:hover{
   text-decoration: underline;
 }
+.introduce{
+  padding-left:160px;
+  margin-top:20px;
+  font-weight: bolder;
+  font-size: 16px; 
+  text-align: left;
+  margin-left:10px;
+  border-top:1px dotted #C0C0C0;
+}
 .box-wrappersix{
   display:flex;
   flex-wrap: wrap;
@@ -379,13 +413,27 @@ color: #0c269a;
 .service:hover{
   text-decoration: underline;
 }
-
-
+.back{
+  padding-left: 160px;
+  margin-top: 60px;
+  font-size: 16px; 
+  text-align: left;
+  padding:50px 50px;
+  color: #0c269a;
+  border-top:1px dotted #C0C0C0;
+  border-bottom:solid 2px #C0C0C0;
+}
+.back:hover{
+  text-decoration: underline;
+}
 .SNSsharebutton{
   display:flex;
-  vertical-align: middle;
-  list-style-type: none;
-  cursor: pointer;
+  margin-left: 300px;
+  justify-content: space-evenly;
+   vertical-align: middle;
+   list-style-type: none;
+   cursor: pointer;
+   margin-top: 40px; 
 }
 
 .SNSsharebutton::before{
@@ -398,13 +446,59 @@ color: #0c269a;
 .SNSsharebutton::after{
   content:"";
   margin-top:-10px;
-  margin-left: 260px;
+  margin-left: 260px; 
+}
+  
+.maincontainer{
+  width: 1000px;
+  text-align: center;
+  left:50%;
+  margin: auto;
 }
 
-.maincontainer{
-  width: 100px;
-  
+.horizen{
+  border-bottom: solid 2px #C0C0C0;
 }
+.knowledge{
+  font-weight: bolder;
+  padding-left: 200px;
+  margin-top: 20px;
+  font-size: 16px; 
+  text-align: left;
+  padding:25px;
+  margin-left: 60px;
+}
+.box-wrapperseven{
+  display: block;
+  margin-left: 85px;
+  list-style: none;
+  cursor: pointer;
+}
+.book{
+  width: 160px;
+  padding:5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  color:#333;
+}
+.solution{
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bolder;
+  width: 500px;
+  font-size: 16px; 
+  text-align: left;
+}
+.solutiontwo{
+  width: 160px;
+  padding:5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  color:#333;
+}
+
 
 
 
