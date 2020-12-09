@@ -407,7 +407,8 @@ color: #0c269a;
 .horizen{
   border-bottom: solid 2px #C0C0C0;
 }
-.knowledge{
+.navigationtwo{
+  display: flex;
   font-weight: bolder;
   padding-left: 200px;
   margin-top: 20px;
@@ -430,26 +431,11 @@ color: #0c269a;
   font-size: 14px;
   color:#333;
 }
-.solution{
-  display: flex;
-  flex-wrap: wrap;
-  font-weight: bolder;
-  width: 500px;
-  font-size: 16px; 
-  text-align: left;
+
+.box-wrappereight{
+  position: relative;
+  left:500px;
 }
-.solutiontwo{
-  width: 160px;
-  padding:5px;
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 14px;
-  color:#333;
-}
-
-
-
-
 
 
 
