@@ -200,8 +200,16 @@ text-align: left;
 font-size: 15px;
 margin-left: 180px;
 }
-.box-wrapper{
+.box-header{
   display:flex;
+  flex-wrap: wrap;
+  padding:0px;
+  width: 550px;
+  height:0px;
+  background-color:#D7EEFF;	
+}
+.box-wrapper{
+ display:flex;
   flex-wrap: wrap;
   padding:50px;
   width: 550px;
@@ -369,7 +377,7 @@ color: #0c269a;
   padding:50px 50px;
   color: #0c269a;
   border-top:1px dotted #C0C0C0;
-  border-bottom:solid 2px #C0C0C0;
+
 }
 .back:hover{
   text-decoration: underline;
@@ -396,7 +404,7 @@ color: #0c269a;
   margin-top:-10px;
   margin-left: 260px; 
 }
-  
+ 
 .maincontainer{
   width: 1000px;
   text-align: center;
@@ -407,35 +415,21 @@ color: #0c269a;
 .horizen{
   border-bottom: solid 2px #C0C0C0;
 }
-.navigationtwo{
-  display: flex;
+.one{
+  padding-left:20px;
+  margin-top:20px;
+  padding-top: 20px;
   font-weight: bolder;
-  padding-left: 200px;
-  margin-top: 20px;
   font-size: 16px; 
-  text-align: left;
-  padding:25px;
-  margin-left: 60px;
+  color: #333;
 }
-.box-wrapperseven{
-  display: block;
-  margin-left: 85px;
-  list-style: none;
-  cursor: pointer;
-}
-.book{
-  width: 160px;
-  padding:5px;
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 14px;
-  color:#333;
+.box{
+  display: flex;
+  color: #333;
 }
 
-.box-wrappereight{
-  position: relative;
-  left:500px;
-}
+
+
 
 
 
