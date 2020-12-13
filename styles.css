@@ -252,11 +252,12 @@ margin-left: 180px;
   font-size:8px;
   color: #0c269a;
   cursor: pointer;
-  text-decoration: none;
   line-height: -10px;
   
 }
-
+.NRIstrengthspoint a{
+  text-decoration: none;
+}
 .NRIstrengthspoint:hover{
   background-color:#EEEEEE;	
 }
@@ -299,8 +300,6 @@ padding:25px;
   flex-wrap: wrap;
   width: 100%;
 }
-
-
 .company{
 padding-left: 160px;
 margin-top: 10px;
@@ -339,6 +338,9 @@ color: #0c269a;
 }
 .companygrowth:hover{
   text-decoration: underline;
+}
+.companygrowth a{
+  text-decoration: none;
 }
 .place{
   padding-left: 160px;
@@ -382,7 +384,28 @@ color: #0c269a;
 .back:hover{
   text-decoration: underline;
 }
-.SNSsharebutton{
+
+.SNSsharebutton {
+  display: flex;
+  justify-content:center;
+  border-top: 2px #999 solid;
+  border-bottom: 2px #999 solid;
+}
+.SNSsharebutton p{
+ font-weight: bold;
+ font-size: 18px;
+}
+.sns-button-list {
+  display: flex;
+}
+.sns-button-list-item {
+  list-style: none;
+}
+.sns-button-list-item:not(:first-child) {
+  margin-left: 20px;
+}
+
+/* .SNSsharebutton{
   display:flex;
   margin-left: 300px;
   justify-content: space-evenly;
@@ -391,20 +414,17 @@ color: #0c269a;
    cursor: pointer;
    margin-top: 40px; 
 }
-
 .SNSsharebutton::before{
   content:"Follow Us";
   color:#333;
   font-weight: bolder;
   font-size:20px;
 }
-
 .SNSsharebutton::after{
   content:"";
   margin-top:-10px;
   margin-left: 260px; 
-}
- 
+} */
 .maincontainer{
   width: 1000px;
   text-align: center;
@@ -412,26 +432,104 @@ color: #0c269a;
   margin: auto;
 }
 
-.horizen{
-  border-bottom: solid 2px #C0C0C0;
-}
-.one{
-  padding-left:20px;
-  margin-top:20px;
-  padding-top: 20px;
-  font-weight: bolder;
-  font-size: 16px; 
-  color: #333;
-}
-.box{
+.one {
   display: flex;
-  color: #333;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1400px;
+  margin-top: 45px;
 }
 
+.class-A {
+ padding-left: 100px;
+}
+.common{
+  font-weight: bold;
+}
+.common a{
+  text-decoration: none;
+  color: #111111;
+}
+.class-A-list {
+  padding:0px;
+}
 
+.class-A-list-item  {
+  list-style-type: none;
+  padding:10px 0px;
+ 
+}
+.class-A-list-item a{
+  text-decoration: none;
+  color: #111111;
+}
+.class-A-list-item a:hover{
+  text-decoration: underline;
+}
+.class-A-list-itemtwo{
+  list-style: none;
+  padding-top: 17px;
+}
 
+.class-A-list-itemtwo::first-letter{
+font-weight: bold;
+}
+.class-A-list-itemtwo a{
+  color: #111111;
+  font-weight: bold;
+  text-decoration:none;
+}
+.class-A-list-itemtwo:hover{
+  text-decoration: underline;
+}
+.common a:hover{
+  text-decoration: underline;
+}
+.two{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 50px;
+}
+.three{
+  padding-left: 120px;
+}
+.footer{
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #999;
+}
+.footer-navigation-list{
+  list-style-type: none;
+  display: flex;
+  font-size:12px;
+  justify-content: center;
+  margin-top: 20px;
 
+}
+.footer-item:hover{
+ text-decoration: underline;
+}
 
+.footer-item a{
+  color: #999;
+  text-decoration: none;
+  margin:0px 5px;
+}
+.footer-item:not(:first-child) ::before{
+  content:"|";
+  margin: 0px 10px;
+}
+.footer-item::after{
+  content:"";
+  color:#999;
+}
+
+.psmall{
+ justify-content: center;
+  font-size: 10px;
+}
 
 
 
