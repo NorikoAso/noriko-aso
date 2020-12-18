@@ -384,7 +384,9 @@ color: #0c269a;
 .back:hover{
   text-decoration: underline;
 }
-
+.back a{
+  text-decoration: none;
+}
 .SNSsharebutton {
   display: flex;
   justify-content:center;
@@ -432,7 +434,7 @@ color: #0c269a;
   margin: auto;
 }
 
-.one {
+.knowledge {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -440,7 +442,7 @@ color: #0c269a;
   margin-top: 45px;
 }
 
-.class-A {
+.knowledge-item {
  padding-left: 100px;
 }
 .common{
@@ -450,49 +452,50 @@ color: #0c269a;
   text-decoration: none;
   color: #111111;
 }
-.class-A-list {
+.knowledgepoint {
   padding:0px;
 }
 
-.class-A-list-item  {
+.knowledgepoint-item {
   list-style-type: none;
   padding:10px 0px;
- 
 }
-.class-A-list-item a{
+.knowledgepoint-item a{
   text-decoration: none;
   color: #111111;
 }
-.class-A-list-item a:hover{
+.knowledgepoint-item a:hover{
   text-decoration: underline;
 }
-.class-A-list-itemtwo{
+.knowledge-itemtwo a{
   list-style: none;
   padding-top: 17px;
 }
 
-.class-A-list-itemtwo::first-letter{
-font-weight: bold;
+.knowledgepoint-itemtwo{
+ list-style-type: none;
 }
-.class-A-list-itemtwo a{
+.knowledgepoint-itemtwo a{
   color: #111111;
+  text-decoration: none;
   font-weight: bold;
-  text-decoration:none;
+ line-height: 5px;
 }
-.class-A-list-itemtwo:hover{
+
+.knowledgepoint-itemtwo:hover{
   text-decoration: underline;
 }
 .common a:hover{
   text-decoration: underline;
 }
-.two{
+.resource{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
   margin-top: 50px;
 }
-.three{
+.news{
   padding-left: 120px;
 }
 .sitemap a{
@@ -510,33 +513,32 @@ font-weight: bold;
   padding-top: 30px;
   border-top: 1px solid #999;
 }
-.footer-navigation-list{
+.footer-item{
   list-style-type: none;
-  display: flex;
-  font-size:12px;
-  margin-top: 20px;
+  display: inline-block;
+  font-size: 10px;
+  color: #999;
+}
+.footer-item a{
+text-decoration: none;
+font-size: 10px;
+color: #999;
 }
 .footer-item:hover{
- text-decoration: underline;
+  text-decoration: underline;
 }
-
-.footer-item a{
-  color: #999;
-  text-decoration: none;
-  margin:0px 5px;
-}
-.footer-item:not(:first-child)::before {
+.footer-item:not(:first-of-type)::before{
   content:"|";
   margin: 0px 10px;
   color: #999;
 }
-.footer-item::after{
-  content:"";
-  color:#999;
+.footer-navigation-list{
+ margin-left: 70px;
 }
 
-.nav .footer-navigation-list{
-  width: 50%;
+.footer-navigation-list p{
+  font-size: 10px;
+  margin-left: 38px;
 }
 
 #page_top{
