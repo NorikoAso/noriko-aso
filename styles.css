@@ -67,6 +67,7 @@ margin-left: auto;
   margin-left: 10px;
 }
 
+
 .bread-list{
   list-style-type: none;
   font-size: 12px;
@@ -185,8 +186,14 @@ font-weight: lighter;
 text-decoration: none;
 float: left;
 }
+.NRIbusiness::first-letter{
+  color: #111111;
+}
 .NRIbusiness:hover{
   text-decoration: underline;
+}
+.black{
+  color:#111111;
 }
 .NRIhumanresource{
   text-decoration: none;
@@ -266,19 +273,18 @@ hr{
   margin: 150px;
 }
 
-.maincontainertwo{
-  text-align: center;
+.company-infomation{
+  text-align: left;
   width: 1000px;
   left: 50%;
   margin: auto;
 }
 .business{
-padding-left: 160px;
 margin-top: 40px;
 font-weight: bolder;
 font-size: 20px;
 text-align: left;
-padding:20px;
+padding:20px 0px;
 }
 
 .business{
@@ -286,48 +292,31 @@ padding:20px;
   border-bottom: 1px dotted #C0C0C0;
 }
 
-.policy{
-padding-left: 160px;
+.company-infomation-title{
 margin-top: 10px;
 font-weight: bolder;
 font-size: 16px;
 text-align: left;
-padding:25px;
+padding:10px 0px;
+margin-bottom: 0px;
 }
 
-.box-wrappertwo{
+.company-common{
   display:flex;
   flex-wrap: wrap;
   width: 100%;
+  border-bottom: 1px dotted #C0C0C0;
 }
 .company{
-padding-left: 160px;
 margin-top: 10px;
 font-weight: bolder;
 font-size: 16px;
 text-align: left;
 border-top:1px dotted #C0C0C0;
-padding:25px;
+padding:25px ;
 }
-.box-wrapperthree{
-  display:flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.point{
-padding-left: 160px;
-margin-top: 10px;
-font-weight: bolder;
-font-size: 16px;
-text-align: left;
-padding:25px;
-border-top:1px dotted #C0C0C0;
-}
-.box-wrapperfour{
-  display:flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
+
+
 .companygrowth{
 width: 25%;
 margin: 15px 0px;
@@ -342,44 +331,15 @@ color: #0c269a;
 .companygrowth a{
   text-decoration: none;
 }
-.place{
-  padding-left: 160px;
-  margin-top: 10px;
-  font-weight: bolder;
-  font-size: 16px; 
-  text-align: left;
-  padding:25px;
-  border-top:1px dotted #C0C0C0;
-}
-.box-wrapperfive{
-  display:flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.introduce{
-  padding-left:20px;
-  margin-top:20px;
-  padding-top: 20px;
-  font-weight: bolder;
-  font-size: 16px; 
-  text-align: left;
-  margin-left:10px;
-  border-top:1px dotted #C0C0C0;
-}
-.box-wrappersix{
-  display:flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.back{
-  padding-left: 160px;
-  margin-top: 60px;
-  font-size: 16px; 
-  text-align: left;
-  padding:50px 50px;
-  color: #0c269a;
-  border-top:1px dotted #C0C0C0;
 
+
+
+
+.back{
+  padding: 60px 0px;
+  font-size: 16px; 
+  text-align: left;
+  color: #0c269a;
 }
 .back:hover{
   text-decoration: underline;
@@ -438,15 +398,21 @@ color: #0c269a;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 1400px;
+  max-width: 1280px;
   margin-top: 45px;
+  justify-content: space-between;
+  margin-left: 30px;
 }
 
 .knowledge-item {
- padding-left: 100px;
+width: 25%;
+margin-top: 40px;
 }
 .common{
   font-weight: bold;
+}
+.common::first-letter{
+  font-weight: normal;
 }
 .common a{
   text-decoration: none;
@@ -467,43 +433,40 @@ color: #0c269a;
 .knowledgepoint-item a:hover{
   text-decoration: underline;
 }
-.knowledge-itemtwo a{
-  list-style: none;
-  padding-top: 17px;
-}
 
-.knowledgepoint-itemtwo{
+.knowledgepoint-tool{
  list-style-type: none;
+ padding-top: 20px;
 }
-.knowledgepoint-itemtwo a{
+.knowledgepoint-tool a{
   color: #111111;
   text-decoration: none;
   font-weight: bold;
  line-height: 5px;
 }
-
-.knowledgepoint-itemtwo:hover{
+.knowledgepoint-tool::first-letter{
+  text-decoration: none;
+  font-weight: normal;
+}
+.knowledgepoint-tool:hover{
   text-decoration: underline;
 }
 .common a:hover{
   text-decoration: underline;
 }
-.resource{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 1300px;
-  margin-top: 50px;
-}
-.news{
-  padding-left: 120px;
+
+.sitemap{
+  padding: 45px 0px;
 }
 .sitemap a{
-  text-decoration: none;
   color: #111111;
  font-weight: bold;
- padding-left: 120px;
+ text-decoration: none;
 }
+.sitemap::first-letter{
+font-weight: normal;
+}
+
 .sitemap a:hover{
   text-decoration: underline;
   cursor: pointer;
