@@ -19,7 +19,7 @@ font-size: 12px;
   color: #333;
   font-weight: bolder;
 }
-  
+
 .headerpicture{
   float: right;
   margin-right: 50px;
@@ -27,8 +27,8 @@ font-size: 12px;
   cursor: pointer;
 }
 :root {
-  --hamburger-menu-size: 50px; /* メニューの大きさ */ 
-  --hamburger-menu-padding: 12px;  
+  --hamburger-menu-size: 50px; /* メニューの大きさ */
+  --hamburger-menu-padding: 12px;
   --hamburger-menu-border-px: 2px; /* 線の太さ */
   --hamburger-menu-border-color: #342534; /* 線の色 */
 }
@@ -37,7 +37,7 @@ font-size: 12px;
   position: relative;
   width: 50px;
   height: 50px;
-margin-left: auto;
+  margin-left: auto;
 }
 
 .hamburger-menu-line{
@@ -64,8 +64,9 @@ margin-left: auto;
 }
 
 .pic{
-  margin-right: 15px;
+  margin-left: 10px;
 }
+
 
 .bread-list{
   list-style-type: none;
@@ -90,6 +91,10 @@ color:#999;
   margin-left: 30px;
 }
 
+#picture2{
+  object-fit: cover;
+}
+
 .text-message{
   padding-top: 10px;
   object-fit: scale-down;
@@ -110,7 +115,7 @@ font-weight: lighter;
   margin-left: 250px;
   margin-top: -230px;
   color: #fff;
-  font-weight: bolder; 
+  font-weight: bolder;
 }
 
 .SNSbutton::before{
@@ -134,32 +139,27 @@ font-weight: lighter;
   float: right;
   list-style-type: none;
   cursor: pointer;
- } 
+ }
 
 .topics{
- font-family: sans-serif !important;
+ font-family: sans-serif;
   font-size: 15px;
   margin-bottom: 30px;
   margin-top: 90px;
-  margin-left: 270px;
   padding-right: 50px;
+  text-align: left;
 }
-
 .NRImessage p{
   font-size: 16px;
   font-weight: normal;
-  text-align: justify;
-  margin-left: 270px;
+  text-align: left;
 }
-
-
 .picture{
-  text-align: center;
+  text-align: left;
 }
-
 .btn{
   display: block;
-  width: 300px;
+  width: 330px;
   height: 60px;
   background: #005bac;
   color: #fff;
@@ -171,172 +171,69 @@ font-weight: lighter;
   text-decoration: none;
   outline: none;
   margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 16px;
 }
 
 .btn:hover{
   opacity: 0.8;
 }
-
-
-
-
-
-
-
-
-.topic4{
-text-align:left;
-font-size:16px;
+.NRIstrengths{
+  width: 85%;
+  display: inline-block;
+}
+.NRIbusiness{
 text-decoration: none;
-margin-left: 260px;
-margin-top: 260px;
-cursor: pointer;
+float: left;
 }
-
-
-
-.topic5{
- text-align: right;
-font-size:16px;
- text-decoration: none;
- position: relative;
- margin-left: 960px;
- margin-top: -45px;
- cursor: pointer;
+.NRIbusiness::first-letter{
+  color: #111111;
 }
-.topics5:hover{
+.NRIbusiness:hover{
   text-decoration: underline;
 }
-
-.strong1{
-  display: inline-block;
-  text-align: left;
-  background-color:#F0f8FF;
-  border: solid 1px transparent;
-  height:280px;
-  width:850px;
-  margin-top: 50px;
-  margin-left: 260px;
+.black{
+  color:#111111;
 }
-
-.strong2{
-  position: relative;
-  margin-left: 20px;
-}
-
-.btn-displayblock1{
- width: 245px;
- height: 50px;
- float: left;
- margin-left: 22px;
- border:solid 1px #999;
- background-color:#fff;
- text-align: center;
- padding-top: 30px;
- text-decoration: none;
- outline: 0;
-}
- 
-
-
-.btn-displayblock2{
-  width: 250px;
-  height:50px;
-  float: left;
-  margin-left: 20px;
-  margin-top: -1px;
-  border:solid 1px #999;
-  background-color:#fff;
-  text-align: center;
-  padding-top: 30px;
+.NRIhumanresource{
   text-decoration: none;
-  outline: 0;
- }
-
- .btn-displayblock3{
-  width: 250px;
-  height:50px;
-  float: left;
-  margin-left: 20px;
-  margin-top: -1px;
-  border:solid 1px #999;
-  background-color:#fff;
-  text-align: center;
-  padding-top: 30px;
-  position: relative;
-  text-decoration: none;
-  outline: 0;
- }
-
- 
-
- .btn-displayblock4{
-  width: 245px;
-  height:50px;
-  float: left;
-  margin-top: 100px;
-  margin-left: -790px;
-  margin-bottom: -40px;
-  margin-right: -20px;
-  border:solid 1px #999;
-  background-color:#fff;
-  text-align: center;
-  position: absolute;
-  padding-top: 30px;
-  text-decoration: none;
-  outline: 0;
- }
- 
- .btn-displayblock5{
-  width: 250px;
-  height:50px;
-  float: left;
-  margin-left: 20px;
-  margin-top: 20px;
-  border:solid 1px #999;
-  background-color:#fff;
-  text-align: center;
-  padding-top: 30px;
-  text-decoration: none;
-  outline: 0;
- }
-
- .btn-displayblock6{
-  width: 250px;
-  height:50px;
-  float: left;
-  margin-left: 20px;
-  margin-top: 20px;
-  border:solid 1px #999;
-  background-color:#fff;
-  text-align: center;
-  position: relative;
-  padding-top: 30px;
-  text-decoration: none;
-  outline: 0;
- }
-
-
-
-.btn-displayblock1:hover{
-  background-color: #eeeeee;
+  float: right;
 }
-.btn-displayblock2:hover{
-  background-color: #eeeeee;
+.NRIhumanresource:hover{
+  text-decoration: underline;
 }
-.btn-displayblock3:hover{
-  background-color: #eeeeee;
+h3{
+text-align: left;
+font-size: 15px;
+margin-left: 180px;
 }
-.btn-displayblock4:hover{
-  background-color: #eeeeee;
+.box-header{
+  display:flex;
+  flex-wrap: wrap;
+  padding:0px;
+  width: 550px;
+  height:0px;
+  background-color:#D7EEFF;	
 }
-.btn-displayblock5:hover{
-  background-color: #eeeeee;
+.box-wrapper{
+ display:flex;
+  flex-wrap: wrap;
+  padding:50px;
+  width: 550px;
+  height: 180px;
+  margin-left: 160px;
+  background-color:#D7EEFF;	
 }
-.btn-displayblock6:hover{
-  background-color: #eeeeee;
+
+.SNSbuttontwo{
+  border-style: none;
+  vertical-align: middle;
+  display: flex;
+  list-style-type: none;
+  cursor: pointer;
+  margin-left: 600px;
 }
-.SNS2::before{
+.SNSbuttontwo::before{
   content:"share";
   color:#999;
   font-weight: bold;
@@ -344,1254 +241,303 @@ font-size:16px;
   margin-top:5px;
 }
 
-.SNS2::after{
+.SNSbuttontwo::after{
   content:"";
-  display:block;
-  margin-bottom:20px;
-  margin-right:200 px;
-  justify-content: space-around;
+  margin-top:-10px;
+  margin-left: 260px;
 }
 
- .SNS2{
-  border-style: none;
-  vertical-align: middle;
-  display: flex;
-  float: right;
-  margin-top: 100px;
-  margin-bottom: 30px;
-  list-style-type: none;
-  justify-content: space-around;
+.NRIstrengthspoint {
+  background-color: #fff;
+  border: 1px solid #999;
+  width: 123px;
+  height: 60px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 20px 30px;
+  padding: 15px;
+  font-size:8px;
+  color: #0c269a;
   cursor: pointer;
- } 
-
- .line1{
-  display: inline-block;
-   border-top: solid 2px #333;
-   width:73%;
-   margin-top: 200px;
-   padding-left: 50px;
-   position: relative;
-   margin-left:170px;
- }
-
- .text5{
-  display: inline-block;
-  font-weight: bold;
-  font-size: 20px;
-  margin-left: 170px;
-  margin-top: -20px;
- }
-.line2{
-  border-bottom: dotted 1px #333;
-  width:73%;
-  margin-top: 5px;
-   padding-left: 50px;
-   position: relative;
-   margin-left:170px;
-}
-.text6{
-  display: inline-block;
-  font-weight: bold;
-  font-size: 15px;
-  margin-left: 170px;
-  margin-top: 20px;
-}
-
-.sentence1{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 170px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence1:hover{
-  text-decoration: underline;
-}
-.sentence2{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 170px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence2:hover{
-  text-decoration: underline;
-}
-.sentence3{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 170px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence3:hover{
-  text-decoration: underline;
-}
-.sentence4{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 170px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence4:hover{
-  text-decoration: underline;
-}
-.sentence5{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-right: 700px;
-  margin-left: 170px;
-  margin-top: 20px;
-  text-decoration: none;
-}
-.sentence5:hover {
-  text-decoration: underline;
-}
+  line-height: -10px;
   
-.sentence6{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 445px;
-  margin-top: -20px;
-  text-decoration: none;
-  outline: none;
 }
-.sentence6:hover{
+.NRIstrengthspoint a{
+  text-decoration: none;
+}
+.NRIstrengthspoint:hover{
+  background-color:#EEEEEE;	
+}
+
+hr{
+  margin: 150px;
+}
+
+.company-infomation{
+  text-align: left;
+  width: 1000px;
+  left: 50%;
+  margin: auto;
+}
+.business{
+margin-top: 40px;
+font-weight: bolder;
+font-size: 20px;
+text-align: left;
+padding:20px 0px;
+}
+
+.business{
+  border-top: 2px solid #333;
+  border-bottom: 1px dotted #C0C0C0;
+}
+
+.company-infomation-title{
+margin-top: 10px;
+font-weight: bolder;
+font-size: 16px;
+text-align: left;
+padding:10px 0px;
+margin-bottom: 0px;
+}
+
+.company-common{
+  display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border-bottom: 1px dotted #C0C0C0;
+}
+.company{
+margin-top: 10px;
+font-weight: bolder;
+font-size: 16px;
+text-align: left;
+border-top:1px dotted #C0C0C0;
+padding:25px ;
+}
+
+
+.companygrowth{
+width: 25%;
+margin: 15px 0px;
+text-decoration: none;
+cursor: pointer;
+font-size: 14px;
+color: #0c269a;
+}
+.companygrowth:hover{
   text-decoration: underline;
 }
-.sentence7{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 680px;
-  margin-top: -20px;
+.companygrowth a{
   text-decoration: none;
-  outline: none;
 }
-.sentence7:hover{
+
+
+
+
+.back{
+  padding: 60px 0px;
+  font-size: 16px; 
+  text-align: left;
+  color: #0c269a;
+}
+.back:hover{
   text-decoration: underline;
 }
-.sentence8{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 940px;
-  margin-top: -20px;
+.back a{
   text-decoration: none;
-  outline: none;
 }
-.sentence8:hover{
-  text-decoration: underline;
-}
-.sentence9{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-right: 700px;
-  margin-left: 170px;
-  margin-top: 20px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence9:hover{
-  text-decoration: underline;
-}
-.sentence10{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 445px;
-  margin-top: -20px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence10:hover{
-  text-decoration: underline;
-}
-.sentence11{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 680px;
-  margin-top: -20px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence11:hover{
-  text-decoration: underline;
-}
-.line3{
-  border-bottom: dotted 1px #333;
-  width: 77%;
-  position: relative;
-  margin-left:170px;
-  margin-top: 150px;
-}
-.text7{
-  display: inline-block;
-  font-weight: bold;
-  font-size: 15px;
-  margin-left: 170px;
-  margin-top: 20px;
-}
-.sentence12{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 170px;
-  text-decoration: none;
-  outline: none;
-  margin-top: -10px;
-}
-.sentence12:hover{
-  text-decoration: underline;
-}
-.sentence13{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 210px;
-  text-decoration: none;
-  outline: none;
-  margin-top: -10px;
-}
-.sentence13:hover{
-  text-decoration: underline;
-}
-.sentence14{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 200px;
-  text-decoration: none;
-  outline: none;
-  margin-top: -10px;
-}
-.sentence14:hover{
-  text-decoration: underline;
-}
-.sentence15{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 205px;
-  text-decoration: none;
-  outline: none;
-  margin-top: -10px;
-}
-.sentence15:hover{
-  text-decoration: underline;
-}
-.sentence16{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-right: 700px;
-  margin-left: 170px;
-  margin-top: 20px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence16:hover{
-  text-decoration: underline;
-}
-.line4{
-  border-bottom: dotted 1px #333;
-  width: 77%;
-  position: relative;
-  margin-left:170px;
-  margin-top: 95px;
-}
-.text8{
-  display: inline-block;
-  font-weight: bold;
-  font-size: 15px;
-  margin-left: 170px;
-  margin-top: 20px;
-}
-.sentence17{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 170px;
-  text-decoration: none;
-  outline: none;
-  margin-top: -10px;
-}
-.sentence17:hover{
-  text-decoration: underline;
-}
-.sentence18{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 95px;
-  text-decoration: none;
-  outline: none;
-  margin-top: -10px;
-}
-.sentence18:hover{
-  text-decoration: underline;
-}
-.sentence19{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 65px;
-  text-decoration: none;
-  outline: none;
-  margin-top: -10px;
-}
-.sentence19:hover{
-  text-decoration: underline;
-}
-.sentence20{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left:160px;
-  text-decoration: none;
-  outline: none;
-  margin-top: -10px;
-}
-.sentence20:hover{
-  text-decoration: underline;
-}
-.sentence21{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-right: 700px;
-  margin-left: 170px;
-  margin-top: 20px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence21:hover{
-  text-decoration: underline;
-}
-.sentence22{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 445px;
-  margin-top: -20px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence22:hover{
-  text-decoration: underline;
-}
-.sentence23{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 678px;
-  margin-top: -20px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence23:hover{
-  text-decoration: underline;
-}
-.text9{
-  display: inline-block;
-  font-weight: bold;
-  font-size: 15px;
-  margin-left: 170px;
-  margin-top: 20px;
-}
-.line5{
-  border-bottom: dotted 1px #333;
-  width: 77%;
-  position: relative;
-  margin-left:170px;
-  margin-top:100px;
-}
-.sentence24{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 170px;
-  text-decoration: none;
-  outline: none;
-  margin-top: -10px;
-}
-.sentence24:hover{
-  text-decoration: underline;
-}
-.sentence25{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 170px;
-  text-decoration: none;
-  outline: none;
-  margin-top: -10px;
-}
-.sentence25:hover{
-  text-decoration: underline;
-}
-.sentence26{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left:110px;
-  text-decoration: none;
-  outline: none;
-  margin-top: -10px;
-}
-.sentence26:hover{
-  text-decoration: underline;
-}
-.line6{
-  border-bottom: dotted 1px #333;
-  width: 77%;
-  position: relative;
-  margin-left:170px;
-  margin-top:60px;
-}
-.text10{
-  display: inline-block;
-  font-weight: bold;
-  font-size: 15px;
-  margin-left: 170px;
-  margin-top: 20px;
-}
-.sentence27{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 170px;
-  text-decoration: none;
-  outline: none;
-  margin-top: -10px;
-}
-.sentence27:hover{
-  text-decoration: underline;
-}
-.sentence28{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 155px;
-  text-decoration: none;
-  outline: none;
-  margin-top: -10px;
-}
-.sentence28:hover{
-  text-decoration: underline;
-}
-.sentence29{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left:95px;
-  text-decoration: none;
-  outline: none;
-  margin-top: -10px;
-}
-.sentence29:hover{
-  text-decoration: underline;
-}
-.sentence30{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left:125px;
-  text-decoration: none;
-  outline: none;
-  margin-top: -10px;
-}
-.sentence30:hover{
-  text-decoration: underline;
-}
-.line7{
-  border-bottom: dotted 1px #333;
-  width: 77%;
-  position: relative;
-  margin-left:170px;
-  margin-top:60px;
-}
-.sentence31{
-  float: left;
-  position: relative;
-  color:#0c269a;
-  font-weight: 100;
-  font-size: 13px;
-  cursor: pointer;
-  padding-left: 170px;
-  text-decoration: none;
-  outline: none;
-  margin-top: 30px;
-}
-.sentence27:hover{
-  text-decoration: underline;
-}
-.line8{
-  border-bottom: solid 2px #999;
-  width: 110%;
-  margin-top:150px;
-}
-.SNS3{
-  border-style: none;
-  vertical-align: middle;
+.SNSsharebutton {
   display: flex;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  list-style-type: none;
-  cursor: pointer;
-  margin: 0 auto;
-  width: 30%;
- } 
- .SNS3::before{
-  content:"FollowUs";
-  color: #333;
-  font-weight: 900;
-  font-size:16px;
-  margin-top:-40px;
-  margin-bottom:-80px;
-  padding-top: 25px;
-  margin: 0 auto;
-  width: 30%;
+  justify-content:center;
+  border-top: 2px #999 solid;
+  border-bottom: 2px #999 solid;
+}
+.SNSsharebutton p{
+ font-weight: bold;
+ font-size: 18px;
+}
+.sns-button-list {
+  display: flex;
+}
+.sns-button-list-item {
+  list-style: none;
+}
+.sns-button-list-item:not(:first-child) {
+  margin-left: 20px;
 }
 
-.SNS3::after{
+/* .SNSsharebutton{
+  display:flex;
+  margin-left: 300px;
+  justify-content: space-evenly;
+   vertical-align: middle;
+   list-style-type: none;
+   cursor: pointer;
+   margin-top: 40px; 
+}
+.SNSsharebutton::before{
+  content:"Follow Us";
+  color:#333;
+  font-weight: bolder;
+  font-size:20px;
+}
+.SNSsharebutton::after{
   content:"";
-  display:block;
-  margin-bottom:20px;
-  margin-top:-30px;
-  margin-right:160px;
+  margin-top:-10px;
+  margin-left: 260px; 
+} */
+.maincontainer{
+  width: 1000px;
+  text-align: center;
+  left:50%;
+  margin: auto;
 }
-.line9{
-  border-bottom: solid 2px #999;
-  width: 110%;
-  margin-top:30px;
+
+.knowledge {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1280px;
+  margin-top: 45px;
+  justify-content: space-between;
+  margin-left: 30px;
 }
-.sentence32{
-  float: left;
-  position: relative;
+
+.knowledge-item {
+width: 25%;
+margin-top: 40px;
+}
+.common{
   font-weight: bold;
-  color: #333;
-  font-size: 15px;
+}
+.common::first-letter{
+  font-weight: normal;
+}
+.common a{
+  text-decoration: none;
+  color: #111111;
+}
+.knowledgepoint {
+  padding:0px;
+}
+
+.knowledgepoint-item {
+  list-style-type: none;
+  padding:10px 0px;
+}
+.knowledgepoint-item a{
+  text-decoration: none;
+  color: #111111;
+}
+.knowledgepoint-item a:hover{
+  text-decoration: underline;
+}
+
+.knowledgepoint-tool{
+ list-style-type: none;
+ padding-top: 20px;
+}
+.knowledgepoint-tool a{
+  color: #111111;
+  text-decoration: none;
+  font-weight: bold;
+ line-height: 5px;
+}
+.knowledgepoint-tool::first-letter{
+  text-decoration: none;
+  font-weight: normal;
+}
+.knowledgepoint-tool:hover{
+  text-decoration: underline;
+}
+.common a:hover{
+  text-decoration: underline;
+}
+
+.sitemap{
+  padding: 45px 0px;
+}
+.sitemap a{
+  color: #111111;
+ font-weight: bold;
+ text-decoration: none;
+}
+.sitemap::first-letter{
+font-weight: normal;
+}
+
+.sitemap a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer{
   margin-top: 30px;
-  margin-left: 50px;
-  text-decoration: none;
-  outline: none;
+  padding-top: 30px;
+  border-top: 1px solid #999;
 }
-.sentence32:hover{
+.footer-item{
+  list-style-type: none;
+  display: inline-block;
+  font-size: 10px;
+  color: #999;
+}
+.footer-item a{
+text-decoration: none;
+font-size: 10px;
+color: #999;
+}
+.footer-item:hover{
   text-decoration: underline;
 }
-.sentence33{
-  float: left;
+.footer-item:not(:first-of-type)::before{
+  content:"|";
+  margin: 0px 10px;
+  color: #999;
+}
+.footer-navigation-list{
+ margin-left: 70px;
+}
+
+.footer-navigation-list p{
+  font-size: 10px;
+  margin-left: 38px;
+}
+
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background:#333;
+  opacity: 1.5;
+}
+#page_top a{
   position: relative;
-  font-weight: bold;
-  color: #333;
-  font-size: 15px;
-  margin-top:30px;
-  margin-left: 200px;
+  display: block;
+  width: 50px;
+  height: 50px;
   text-decoration: none;
-  outline: none;
 }
-.sentence33:hover{
-  text-decoration: underline;
-}
-.sentence34{
-  float: left;
-  position: relative;
-  font-weight: bold;
-  color: #333;
-  font-size: 15px;
-  margin-top:30px;
-  margin-left: 200px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence34:hover{
-  text-decoration: underline;
-}
-.sentence35{
-  float: left;
-  position: relative;
-  font-weight: bold;
-  color: #333;
-  font-size: 15px;
-  margin-top:30px;
-  margin-left: 200px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence35:hover{
-  text-decoration: underline;
-}
-.sentence36{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 80px;
-  margin-left: -1185px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence36:hover{
-  text-decoration: underline;
-}
-.sentence37{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 80px;
-  margin-left: -820px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence37:hover{
-  text-decoration: underline;
-}
-.sentence38{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 80px;
-  margin-left: -423px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence38:hover{
-  text-decoration: underline;
-}
-.sentence39{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 80px;
-  margin-left: -75px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence39:hover{
-  text-decoration: underline;
-}
-.sentence40{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 120px;
-  margin-left: -1232px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence40:hover{
-  text-decoration: underline;
-}
-.sentence41{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 120px;
-  margin-left: -866px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence41:hover{
-  text-decoration: underline;
-}
-.sentence42{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 120px;
-  margin-left: -470px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence42:hover{
-  text-decoration: underline;
-}
-.sentence43{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 120px;
-  margin-left: -123px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence43:hover{
-  text-decoration: underline;
-}
-.sentence44{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 160px;
-  margin-left: -1230px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence44:hover{
-  text-decoration: underline;
-}
-.sentence45{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 160px;
-  margin-left: -865px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence45:hover{
-  text-decoration: underline;
-}
-.sentence46{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 160px;
-  margin-left: -470px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence46:hover{
-  text-decoration: underline;
-}
-.sentence47{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 160px;
-  margin-left: -123px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence47:hover{
-  text-decoration: underline;
-}
-.sentence48{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 200px;
-  margin-left: -1230px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence48:hover{
-  text-decoration: underline;
-}
-.sentence49{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 200px;
-  margin-left: -865px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence49:hover{
-  text-decoration: underline;
-}
-.sentence50{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 240px;
-  margin-left: -1230px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence50:hover{
-  text-decoration: underline;
-}
-.sentence51{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 240px;
-  margin-left: -865px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence51:hover{
-  text-decoration: underline;
-}
-.sentence52{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 280px;
-  margin-left: -1230px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence52:hover{
-  text-decoration: underline;
-}
-.sentence53{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 280px;
-  margin-left: -865px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence53:hover{
-  text-decoration: underline;
-}
-.sentence54{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 320px;
-  margin-left: -865px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence54:hover{
-  text-decoration: underline;
-}
-.sentence55{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 360px;
-  margin-left: -865px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence55:hover{
-  text-decoration: underline;
-}
-.sentence56{
-  float: left;
-  position: relative;
-  font-weight: bolder;
-  color: #333;
-  font-size: 15px;
-  margin-top: 500px;
-  margin-left: -1220px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence56:before {
-  content: '>';
-  margin-left: 1rem;
-}
-.sentence56:hover{
-  text-decoration: underline;
-}
-.sentence57{
-  float: left;
-  position: relative;
-  font-weight: bolder;
-  color: #333;
-  font-size: 15px;
-  margin-top: 500px;
-  margin-left: -860px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence57:hover{
-  text-decoration: underline;
-}
-.sentence58{
-  float: left;
-  position: relative;
-  font-weight: bolder;
-  color: #333;
-  font-size: 15px;
-  margin-top: 500px;
-  margin-left: -465px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence58:hover{
-  text-decoration: underline;
-}
-.sentence59{
-  float: left;
-  position: relative;
-  font-weight: bolder;
-  color: #333;
-  font-size: 15px;
-  margin-top: 500px;
-  margin-left: -120px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence59:hover{
-  text-decoration: underline;
-}
-.sentence60{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 550px;
-  margin-left: -1280px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence60:hover{
-  text-decoration: underline;
-}
-.sentence61{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 550px;
-  margin-left: -920px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence61:hover{
-  text-decoration: underline;
-}
-.sentence62{
-  float: left;
-  position: relative;
-  font-weight: bolder;
-  color: #333;
-  font-size: 15px;
-  margin-top: 550px;
-  margin-left: -525px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence62:hover{
-  text-decoration: underline;
-}
-.sentence63{
-  float: left;
-  position: relative;
-  font-weight: bolder;
-  color: #333;
-  font-size: 15px;
-  margin-top: 30px;
-  margin-left: 1162px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence63:hover{
-  text-decoration: underline;
-}
-.sentence64{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 60px;
-  margin-left: -1310px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence64:hover{
-  text-decoration: underline;
-}
-.sentence65{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 15px;
-  margin-top: 60px;
-  margin-left: -950px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence65:hover{
-  text-decoration: underline;
-}
-.sentence66{
-  float: left;
-  position: relative;
-  font-weight: bold;
-  color: #333;
-  font-size:15px;
-  margin-top: 80px;
-  margin-left: -555px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence66:hover{
-  text-decoration: underline;
-}
-.sentence67{
-  float: left;
-  position: relative;
-  font-weight: bold;
-  color: #333;
-  font-size:15px;
-  margin-top: 25px;
-  margin-left: 1164px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence67:hover{
-  text-decoration: underline;
-}
-.sentence68{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 40px;
-  margin-left: -1210px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence68:hover{
-  text-decoration: underline;
-}
-.sentence69{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top: 40px;
-  margin-left: -849px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence69:hover{
-  text-decoration: underline;
-}
-.sentence70{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top:75px;
-  margin-left: -1210px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence70:hover{
-  text-decoration: underline;
-}
-.sentence71{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top:75px;
-  margin-left: -850px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence71:hover{
-  text-decoration: underline;
-}
-.sentence72{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top:110px;
-  margin-left: -1210px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence72:hover{
-  text-decoration: underline;
-}
-.sentence73{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top:110px;
-  margin-left: -850px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence73:hover{
-  text-decoration: underline;
-}
-.sentence74{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top:140px;
-  margin-left: -850px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence74:hover{
-  text-decoration: underline;
-}
-.sentence75{
-  float: left;
-  position: relative;
-  font-weight: normal;
-  color: #333;
-  font-size: 14px;
-  margin-top:170px;
-  margin-left: -850px;
-  text-decoration: none;
-  outline: none;
-}
-.sentence75:hover{
-  text-decoration: underline;
-}
-.line10{
-  border-bottom: solid 0.5px silver;
-  width: 110%;
-  margin-top:830px;
+#page_top a::before{
+  content: "∧";
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
 }
 
 
-.navigation-header.--solutioin {
-  font-size: 15px;
-}
+
+
+
+
+
