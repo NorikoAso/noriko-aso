@@ -125,3 +125,8 @@ h1{
   font-weight: bold;
   color:white;
 }
+
+#tbl-bdr table,#tbl-bdr td,#tbl-bdr th {
+  border-collapse: collapse;
+  border:1px solid #333;
+  }
