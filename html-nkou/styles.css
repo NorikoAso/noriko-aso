@@ -83,7 +83,7 @@ margin-top: 20px;
   text-align: center;
   margin-left: 750px;
   margin-top: -280px;
- 
+
 }
 .box-title{
   color: navy;
@@ -120,7 +120,7 @@ margin-top: 20px;
   .right-line {
     border-right:1px solid #999;
     }
-  
+
   .tbl-bdr a{
     text-decoration: none;
     color: #333;
@@ -297,10 +297,10 @@ margin-top: 20px;
   }
   .school-introduce{
   width: 350px;
-  
+
   }
   .school-event{
-    
+
     width: 350px;
   }
   .school-introduce-detail{
@@ -315,22 +315,22 @@ margin-top: 20px;
     cursor: pointer;
    display:block;
   }
-  
+
 .last {
   font-size: 15px;
   line-height: 1.9;
   color: #8d959c;
  margin-left:200px;
- background-color: #f0f3f8; 
+ background-color: #f0f3f8;
   width: 1000px;
   height: 25px;
-  
+
 }
 .last-text{
   font-size: 10px;
   line-height: 1.9;
   color: #8d959c;
-  background-color: #f0f3f8; 
+  background-color: #f0f3f8;
   width: 1000px;
   height: 250px;
   margin: 0 auto;
@@ -402,11 +402,18 @@ margin-top: 20px;
   display: flex;
   flex-wrap:wrap;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   margin-top: 45px;
-  justify-content: space-between;
   margin-left: 155px;
 }
+.school-topics{
+  width:20%;
+}
+.left-line{
+  border-left: solid 1px #ccc;
+  padding-left: 10px;
+}
+
 .common{
   color: #1f286f;
   font-weight: 700;
