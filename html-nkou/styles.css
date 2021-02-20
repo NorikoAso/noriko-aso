@@ -70,7 +70,8 @@
 font-weight: bolder;
 font-size: 40px;
 color: navy;
-text-align: center;
+display: flex;
+justify-content: center;
 margin-top: 20px;
 }
 
@@ -81,7 +82,8 @@ margin-top: 20px;
   letter-spacing: 0.06em;
 }
 .pic-triangle{
-  margin-left: 380px;
+  margin-left: 450px;
+  margin-top: 40px;
 }
 .box-item-first{
   background-color:#F5F5F5;
@@ -91,7 +93,7 @@ margin-top: 20px;
   box-sizing: border-box;
   text-align: center;
   margin-left: 750px;
-  margin-top: -280px;
+  margin-top: -250px;
 
 }
 .box-title{
@@ -187,7 +189,7 @@ margin-top: 20px;
   }
   .convenience-pic-one{
     margin-left: 800px;
-    margin-top: -250px;
+    margin-top: -330px;
   }
   .convenience-pic-second{
     margin-left: 150px;
@@ -382,7 +384,7 @@ margin-top: 20px;
 }
 .school-select{
   margin-top: 50px;
-  margin-left: 400px;
+  margin-left: 450px;
 }
 .top-line{
   margin-top: 60px;
