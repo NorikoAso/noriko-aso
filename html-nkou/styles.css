@@ -1,0 +1,468 @@
+.right-info{
+  color: #999;
+  font-size: 13px;
+  padding-left: 165px;
+  padding-bottom: 25px;
+}
+.right-letter :last-child{
+  color: navy;
+  font-weight: bolder;
+  border-right: none;
+}
+.top-header{
+  background-color: #fafbfd;
+}
+.enter{
+  color: navy;
+  font-size: 10px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 50px;
+}
+.time{
+  color: #999;
+  font-size: 10px;
+  text-align: center;
+}
+
+.infomation{
+  color: red;
+  font-size: 9px;
+  font-weight: bolder;
+  text-align: left;
+}
+#pic{
+  object-fit: cover;
+}
+.about{
+  position: absolute;
+  font-size: 25px;
+  margin-top: -430px;
+  margin-left: 140px;
+  font-weight:bold;
+  text-decoration: underline;
+  color: #FFF;
+}
+.policy{
+  background-color: #f0f3f8;
+  width: 100%;
+  height: 150px;
+  padding:30px;
+}
+.introduction h1{
+  position: absolute;
+  color:#FFF;
+  font-size: 60px;
+  margin-top: -390px;
+  margin-left: 140px;
+  font-weight:bold;
+}
+.skill{
+  position: absolute;
+  color:#FFF;
+  margin-top: -300px;
+  margin-left: 140px;
+  font-weight:bold;
+  font-size: 20px;
+  line-height: 2.0em;
+}
+.education{
+font-weight: bolder;
+font-size: 40px;
+color: navy;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.education-action{
+  margin-top: 60px;
+  margin-left: 200px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.pic-triangle{
+  margin-left: 450px;
+  margin-top: 40px;
+}
+.box-item-first{
+  background-color:#F5F5F5;
+  border: 0px solid #999;
+  width: 280px;
+  height: 80px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 750px;
+  margin-top: -250px;
+
+}
+.box-title{
+  color: navy;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+.box-item-second{
+  background-color:#F5F5F5;
+  border: 0px solid #999;
+  width: 280px;
+  height: 80px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 750px;
+  margin-top: 10px;
+}
+.box-item-third{
+  background-color:#F5F5F5;
+  border: 0px solid #999;
+  width: 280px;
+  height: 80px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 750px;
+  margin-top: 10px;
+}
+
+.tbl-bdr table,.tbl-bdr td,.tbl-bdr th {
+  border-collapse: collapse;
+  vertical-align: middle;
+  /* border-right:0px solid #999; */
+  }
+  .right-line {
+    border-right:1px solid #999;
+    }
+
+  .tbl-bdr a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .feature-one{
+    background-color: #f0f3f8;
+    width: 100%;
+    height: 150px;
+    padding:30px;
+    margin-top: 75px;
+  }
+  .center-line{
+    width: 1px;
+    height: 80px;
+    background-color: navy;
+  }
+  .position-center-line{
+    margin-left: 650px;
+    margin-top: 20px;
+  }
+  .under-center-line{
+    margin-left: 680px;
+    margin-top: 20px;
+  }
+  .number-one{
+    font-family: Frank Ruhl Libre,serif;
+    font-size: 60px;
+    color: navy;
+    line-height: 1;
+    letter-spacing: .12em;
+    margin-left: 150px;
+    margin-top: 100px;
+  }
+  .learn{
+    font-weight: bolder;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    font-size: 20px;
+    margin-left: 150px;
+  }
+  .detail-hightschool{
+    line-height: 2;
+    letter-spacing: 0.06em;
+    font-size: 18px;
+    margin-left: 150px;
+  }
+  .lesson{
+    margin-left: 150px;
+    color: navy;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .convenience-pic-one{
+    margin-left: 800px;
+    margin-top: -330px;
+  }
+  .convenience-pic-second{
+    margin-left: 150px;
+    margin-top: 80px;
+  }
+  .number-second{
+    font-family: Frank Ruhl Libre,serif;
+    font-size: 60px;
+    color: navy;
+    line-height: 1;
+    letter-spacing: .12em;
+    margin-left: 800px;
+    margin-top: -330px;
+  }
+  .future{
+    font-weight: bolder;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    font-size: 20px;
+    margin-left: 800px;
+  }
+  .learn-second{
+    line-height: 2;
+    letter-spacing: 0.06em;
+    font-size: 18px;
+    margin-left: 800px;
+  }
+  .lesson-experience{
+    margin-left: 800px;
+    color: navy;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .number-third{
+    font-family: Frank Ruhl Libre,serif;
+    font-size: 60px;
+    color: navy;
+    line-height: 1;
+    letter-spacing: .12em;
+    margin-left: 150px;
+    margin-top: 100px;
+  }
+  .tool{
+    font-weight: bolder;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    font-size: 20px;
+    margin-left: 150px;
+  }
+  .tool-detail{
+    line-height: 2;
+    letter-spacing: 0.06em;
+    font-size: 18px;
+    margin-left: 150px;
+  }
+  .lesson-experience{
+    padding-left: 770px;
+    color: navy;
+    font-weight: bold;
+    margin:40px;
+    
+  }
+  .convenience-pic-third{
+    margin-left: 800px;
+    margin-top: -380px;
+  }
+  .lesson-experience-two{
+    margin-left: 149px;
+    color: navy;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .method{
+    margin-left: 150px;
+    margin-top: 70px;
+    font-weight: bolder;
+    padding-top: 40px;
+    text-align: left;
+  }
+  .tool-item{
+    display: flex;
+    list-style-type: none;
+    margin-left: 150px;
+    margin-top: 30px;
+  }
+  .tool-item li::before{
+    content:".";
+    color: navy;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 5px;
+  }
+  .real-life{
+    margin-left: 150px;
+    margin-top: 40px;
+    font-weight: bolder;
+  }
+  .other{
+    margin-left: 150px;
+    margin-top: 40px;
+  }
+  .way{
+    background-color: #f0f3f8;
+    width: 1000px;
+    height: 350px;
+   display: block;
+   margin: 0 auto;
+  }
+  .school{
+    width: 1100px;
+    background-color:#f0f3f8;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:15px;
+  }
+  .about-onlineschool{
+    color: navy;
+    font-weight: bolder;
+    width: 300px;
+    display:inline-block;
+    font-size: 20px;
+  }
+  .school-introduce{
+  width: 350px;
+
+  }
+  .school-event{
+
+    width: 350px;
+  }
+  .school-introduce-detail{
+    border-bottom: solid 0.5px silver;
+    line-height: 2em;
+    cursor: pointer;
+   display:block;
+  }
+  .school-event-detail {
+    border-bottom: solid 0.5px silver;
+    line-height: 2em;
+    cursor: pointer;
+   display:block;
+  }
+.center-content{
+  background-color:#1f286f;
+  margin-top: 70px;
+  width: 100%;
+  padding-bottom: 40px;
+}
+.container{
+  color: #FFF;
+  font-family: Gelasio,serif;
+  font-size: 22px;
+  display: inline-block;
+  margin-left: 380px;
+  margin-top: 100px;
+}
+.about-web-hightschool{
+  margin-bottom: 20px;
+  line-height: 1.8em;
+  margin-left: 350px;
+  color:#FFF;
+  font-size: 25px;
+  font-weight: bold;
+}
+.application{
+  margin-left: 650px;
+  margin-top: -150px;
+}
+.application-tool{
+  color:#b6bbe0;
+}
+.application-tool-phone{
+  text-align: center;
+  color:#FFF;
+  padding: 10px;
+}
+.application-tool-text{
+  font-size: 13px;
+  color:#b6bbe0;
+}
+.other-school{
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #272727;
+  line-height: 1;
+  margin-top: 100px;
+}
+.school-select{
+  margin-top: 50px;
+  margin-left: 450px;
+}
+.top-line{
+  margin-top: 60px;
+  border-top: 1px solid #C0C0C0;
+  border-bottom: 1px solid #C0C0C0;
+}
+.top-content{
+  margin-left: 155px;
+  line-height: 2.5em;
+}
+.nkou-detail{
+  display: flex;
+  flex-wrap:wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 45px;
+  margin-left: 155px;
+}
+.school-topics{
+  width:20%;
+}
+.left-line{
+  border-left: solid 1px #ccc;
+  padding-left: 10px;
+}
+.common{
+  color: #1f286f;
+  font-weight: 700;
+  font-size: 15px;
+  display: block;
+  line-height: 1.5em;
+}
+.common-one{
+  margin-top: 50px;
+  color: #1f286f;
+  font-weight: 700;
+  font-size: 15px;
+  display: block;
+}
+.school-purpose-activity{
+  list-style-type: none;
+  width: 50%;
+  line-height: 2.5em;
+  font-size: 13px;
+}
+
+.school-detail{
+  margin-left: 970px;
+  position: absolute;
+  margin-top: 250px;
+  line-height: 2.5em;
+  font-size: 13px;
+}
+.SNSbutton-item{
+  display: inline-block;
+}
+.footer{
+  background-color: #f0f3f8;
+  width: 1000px;
+  height: 300px;
+  margin-left:200px;
+  margin-top: 100px;
+}
+.last {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #8d959c;
+ text-align: left;
+}
+.last-text{
+  font-size: 10px;
+  line-height: 1.9;
+  color: #8d959c;
+  margin: 0 auto;
+}
+.last-message{
+  text-align: center;
+  color: #8d959c;
+  font-size: 11px;
+  margin-top: 50px;
+}
